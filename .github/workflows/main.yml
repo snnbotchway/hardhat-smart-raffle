@@ -36,4 +36,4 @@ jobs:
         run: yarn pc
 
       - name: Run tests
-        run: yarn test
+        run: yarn hardhat test
