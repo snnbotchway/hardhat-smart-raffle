@@ -1,0 +1,23 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": false,
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ],
+    "importOrder": [
+        "^hardhat/(.*)$",
+        "^@nomicfoundation/(.*)$",
+        "^chai/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
