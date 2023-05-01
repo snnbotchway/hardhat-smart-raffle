@@ -1,4 +1,5 @@
 import { ethers, getNamedAccounts } from "hardhat"
+
 import { FundMe } from "../typechain-types"
 
 async function main() {

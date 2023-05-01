@@ -11,5 +11,13 @@
                 "tabWidth": 2
             }
         }
-    ]
+    ],
+    "importOrder": [
+        "^hardhat/(.*)$",
+        "^@nomicfoundation/(.*)$",
+        "^chai/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
 }
