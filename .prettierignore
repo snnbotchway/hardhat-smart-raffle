@@ -10,3 +10,4 @@ README.md
 coverage.json
 typechain-types
 deployments
+*.json

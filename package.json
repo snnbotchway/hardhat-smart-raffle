@@ -32,7 +32,7 @@
   },
   "scripts": {
     "sh": "solhint 'contracts/**/*.sol'",
-    "pc": "prettier --check",
-    "pw": "prettier --write ."
+    "pc": "prettier -c .",
+    "pw": "prettier -w ."
   }
 }
