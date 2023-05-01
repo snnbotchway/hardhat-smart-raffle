@@ -15,6 +15,7 @@
     "importOrder": [
         "^hardhat/(.*)$",
         "^@nomicfoundation/(.*)$",
+        "^@nomiclabs/(.*)$",
         "^chai/(.*)$",
         "^[./]"
     ],
