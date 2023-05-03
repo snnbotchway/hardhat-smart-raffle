@@ -10,6 +10,8 @@
       {
         "ignoreConstructors": true
       }
-    ]
+    ],
+    "not-rely-on-time": "off",
+    "var-name-mixedcase": "off"
   }
 }
