@@ -1,6 +1,6 @@
 import { ethers, network } from "hardhat"
 
-import { LocalNetworkConfig, NetworkConfig } from "./types/networkConfig"
+import { LocalNetworkConfig, NetworkConfig } from "./types/networkConfigs"
 
 export const networkConfig: NetworkConfig = {
     sepolia: {
