@@ -32,8 +32,16 @@
     "typescript": ">=4.5.0"
   },
   "scripts": {
-    "sh": "solhint 'contracts/**/*.sol'",
-    "pc": "prettier -c .",
-    "pw": "prettier -w ."
+    "compile": "hardhat compile",
+    "test": "hardhat test ./test/unit/*.spec.ts --network hardhat",
+    "test-staging": "hardhat test ./test/staging/*.spec.ts --network sepolia",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "prettier --write .",
+    "coverage": "hardhat coverage --solcoverjs ./.solcover.js",
+    "fuzzing": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox"
+  },
+  "mocha": {
+    "timeout": 10000000
   }
 }
